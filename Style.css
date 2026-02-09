@@ -1,0 +1,113 @@
+       :root {
+        --primary_background_color: #061217;
+        --secondary_background_color: #0a1d13;
+        --tertiary_background_color: #183F2C;
+        --text_color: #D2764F;
+        --text_color_alt: #d28b6c;
+        --text_color_body: #d19980;
+        --quote_color: #d28b6ce6;
+        }
+
+        header {    /*Flexblock for top menu*/
+            display: flex;        /*aligns horizontals*/ 
+            padding: 10px;
+        }
+
+        /*Division Styles*/
+        header div {
+            color: var(--secondary_background_color);
+            margin: 10px;
+            padding: 20px;
+            font-size: 30px;
+            color: var(--text_color);
+            text-align: center;
+            flex: 1;                /* makes all blocks same width */
+        }
+
+        body {
+            background: linear-gradient(0deg, #0b0407, #0a1d13);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: var(--text_color_body);
+            font-family: sans-serif;}
+
+h1{
+  font-size: 40px;  
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  letter-spacing: -1px;
+  text-shadow: 0 0 3px rgba(255, 150, 80, 0.3);
+
+}
+
+h2{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+p{
+   color: var(--text_color_body);
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+    
+}
+img {
+    width: 250px;
+    border-color: #d28b6c;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);}
+    
+
+div a {
+    color: #C8E6D5;
+    text-decoration:none;
+    display:block}
+
+div a:hover{
+      color: #ff9c66;
+    text-shadow: 0 0 8px rgba(255, 156, 102, 0.4);}
+
+body {
+    text-align: center;
+    color: var(--text_color);}
+
+#quote{
+  font-family: "Cormorant Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 32px;
+  color: var(--quote_color);
+  margin: 35px}
+
+#roles {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+    
+.about p {
+font-size: 20px;
+margin: 25px;
+text-align: left;
+}
+
+.about h1{
+    margin: 25px
+}
+
+.about h2{
+    margin: 15px
+}
+
+.about-block {
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 30px;
+  background: rgba(0,0,0,0.4);
+  border-radius: 12px;
+}

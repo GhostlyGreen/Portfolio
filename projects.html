@@ -6,6 +6,7 @@
 
 <body>
 
+  <div class = "projects">
 <header>
   <div><a href="index.html">Home</a></div>
   <div><a href="about.html">About</a></div>
@@ -13,20 +14,149 @@
   <div><a href="contact.html">Contact</a></div>
 </header>
 
-<h1>Personal Projects</h1>
-<p></p>
-  <h2> Games <h2>
-    <p> Chronomancer </p>
-    <p> Lysis </p>
-<p></p>
 
-  <h2>Music</h2>
-    <h3>Modern Works</h3>
-      <h4> Chronomancer OST </h4>
-        <audio controls>
-          <source src = "Assets/Audio/pixelTheme.mp3" type = "audio/mpeg"> 
-          </audio>
+<h1> Projects </h1>
+
+<section class="about-flex">
+    <div class="about-block">
+    <div class = "about-text">
+    <h2> Chronomancer </h2>
+    <p> Inspired by the likes of Cave Story and Hollow Knight, Chronomancer is an action metroidvania where you are sent to an alien world to search for your lost brother, a soldier sent to assist the inhabitants.
+      Upon your arrival, you find the planet has been overun by a creeping, vile corruption, spreading like weeds, infecting the inhabitants of this once glorious world.
+      What once were innocent creatures are ravaged by hunger and bloodlust, and you seem to be a fine meal. Your brother was a solider - he was equipped for this. You are not.
+      Armed with just a scythe, you must use your species' power to manipulate time to keep yourself alive, and find your brother again.</p>
+    
+    
+        
+
+        <!-- COLLAPSING MENU         -->
+        <div class="project-block">
+
+          <button type="button" class="collapsible">
+            Soundtrack Highlights
+          </button>
+
+          <div class="content">
+            <audio controls> 
+              <source src = Assets/Audio/AnEternalPresent.mp3>
+            </audio>
+            <p>An Eternal Present - Ambient Theme of Act 1</p>
+          <p></p>
+            <audio controls> 
+              <source src = Assets/Audio/TheBeginningOfACertainEnd.mp3>
+            </audio>
+            <p>The Beginning of a Certain End - Theme of the Act 1 boss</p>
+          <p></p>
+            <audio controls> 
+              <source src = Assets/Audio/pixelTheme.mp3>
+            </audio>
+            <p>Pixel (Placeholder Name) - Theme of the Act 3 Miniboss</p>
+            </div>
 
 
+        </div>
+
+     </div>
+  </div>
+
+      <div class = "about-image">
+      <img id = "Chronomancerlogo2" src="Assets/Chronomancerlogo2.png" alt="Chronomancerlogo2">
+      </div>
+    </section>
+
+
+  <section class="about-flex">
+    <div class="about-block">
+    <div class = "about-text">
+    <h2> Lysis </h2>
+    <p> Lysis is a rouguelike top down shooter, heavily inspired by the Risk of Rain Franchise.
+       You take the role of lone bacterial cell in a foerign immune system. Your goal?
+       Try to infect and take control your host. You start undetected, it will not last.
+       You've only got a few moments before its onslaught begins. Make them count.</p>
+    
+    
+        
+
+        <!-- COLLAPSING MENU         -->
+        <div class="project-block">
+
+          <button type="button" class="collapsible">
+            Soundtrack Highlights
+          </button>
+
+          <div class="content">
+
+            <p>None yet - In progress</p>
+
+            </div>
+
+
+        </div>
+
+     </div>
+  </div>
+
+      <div class = "about-image">
+      <img id = "LysisAbout"src= "Assets/LysisLarge.png" alt="LysisLarge">
+      </div>
+    </section>
+
+
+      <section class="about-flex">
+    <div class="about-block">
+    <div class = "about-text">
+    <h2> Other Music </h2>
+    <p> Assorted examples of some of my older works. These were made in Musescore.</p>
+    
+    
+        
+
+         <!-- COLLAPSING MENU         -->
+        <div class="project-block">
+
+          <button type="button" class="collapsible">
+            Music Highlights
+          </button>
+
+          <div class="content">
+            <audio controls> 
+              <source src = Assets/Audio/TenebreRossoSangue.mp3>
+            </audio>
+            <p>An ocrhestral remix of Ultrakill's Tenebre Rosso Sangue</p>
+          <p></p>
+            <audio controls> 
+              <source src = Assets/Audio/CSmain1.mp3>
+            </audio>
+            <p>An orchestral remix of Cave story's main theme</p>
+          <p></p>
+            <audio controls> 
+              <source src = Assets/Audio/Oppression.mp3>
+            </audio>
+            <p>A remix of Cave story's track Oppression</p>
+          <p></p>
+            <audio controls> 
+              <source src = Assets/Audio/City in the Clouds.mp3>
+            </audio>
+            <p>City of the Clouds - Original song</p>
+            </div>
+
+     </div>
+  </div>
+    </section>
+
+
+
+
+
+<!-- JAVASCRIPT -->
+<script>
+document.querySelectorAll(".collapsible").forEach(button => {
+  button.addEventListener("click", () => {
+    button.classList.toggle("active");
+    button.nextElementSibling.classList.toggle("open");
+  });
+});
+</script>
+</div>
 </body>
 </html>

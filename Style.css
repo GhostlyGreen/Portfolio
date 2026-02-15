@@ -94,20 +94,169 @@ body {
 font-size: 20px;
 margin: 25px;
 text-align: left;
+color: var(--text_color_body);
 }
 
 .about h1{
     margin: 25px
+
 }
 
 .about h2{
     margin: 15px
 }
 
+.about-flex {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
 .about-block {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  text-align: left;
+  flex: 1;
+  flex-shrink: 0;
   max-width: 1200px;
-  margin: 60px auto;
+  margin-left: 100px;
+  margin-right: auto;
   padding: 30px;
   background: rgba(0,0,0,0.4);
   border-radius: 12px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.about-image{
+  flex-shrink: 0;
+  margin-left: 75px;
+  margin-right: 225px;
+  border-color: #d28b6c;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+#LysisLogo{
+  width: 325px;
+  border-radius: 6px;
+}
+
+#2360H{
+  width: 325px;
+  border-radius: 6px;
+}
+
+#FLStudio{
+  width: 600px;
+  border-radius: 6px;
+}
+
+
+/* PROJECTS CSS */
+
+  /* ROOT*/
+  .projects p {
+  font-size: 20px;
+  margin: 25px;
+  text-align: left;
+  color: var(--text_color_body);
+  line-height: 1.7em;
+  }
+
+  .projects h1{
+      margin: 25px;
+
+  }
+
+  .projects h2{
+      margin: 15px
+  }
+
+.projects img{
+  flex-shrink: 0;
+  border-color: #d28b6c;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+  width: 350px;
+  
+}
+
+
+#Chronomancerlogo2 {
+  background: rgba(0,0,0,0.5);
+  padding: 30px;
+  border-radius: 9px;}
+#LysisAbout{
+  background: rgba(0,0,0,0.5);
+  padding: 30px;
+  border-radius: 9px;}
+
+  /* DROPDOWN MENU*/
+
+  .project-block {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px ;   /* centers automatically */
+}
+    .collapsible {
+      box-sizing: border-box;
+      width: 80%;
+      margin: 0 ;   
+      background-color: rgba(0, 0, 0, 0.4);
+      color: var(--text_color);
+      cursor: pointer;
+      padding: 18px;
+      border: none;
+      text-align: left;
+      font-size: 20px;
+      font-weight:500;
+      border-radius: 12px;
+}
+  /* HOVER VFX*/
+  .active, .collapsible:hover {
+    background-color: rgba(0, 0, 0, 0.75);
+    text-shadow: 0 0 8px rgba(255, 156, 102, 0.4);
+    }
+
+
+
+  /* COLLASPSE STYLING */
+
+    .content {
+      box-sizing: border-box;
+      transform: translateX(10px);
+      width: 80%;
+      max-width: 1200px;
+      text-align: left;
+      margin: 0 auto;  
+      margin-top: 0px;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease;
+      background-color: rgba(0, 0, 0, 0.4);
+      padding: 0 18px;
+      border-radius: 12px;
+    }
+  
+.collapsible:after {
+  content: '\002B';
+  color: var(--text_color);
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";}
+
+.content.open {
+  max-height: 500px; /* adjust if needed */}
+
+  /* AUDIO STYLING*/
+
+  .content audio {
+  display: block;
+  margin: 15px 0;
 }

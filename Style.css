@@ -31,6 +31,15 @@
             color: var(--text_color_body);
             font-family: sans-serif;}
 
+a {
+    color: #C8E6D5;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff9c66;
+}
+
 h1{
   font-size: 40px;  
   font-family: "Montserrat", sans-serif;
@@ -192,6 +201,13 @@ color: var(--text_color_body);
   background: rgba(0,0,0,0.5);
   padding: 30px;
   border-radius: 9px;}
+
+#linktitle{
+font-size: 30px;
+font-weight: bold;
+color: var(--text_color_body);
+
+}
 
   /* DROPDOWN MENU*/
 

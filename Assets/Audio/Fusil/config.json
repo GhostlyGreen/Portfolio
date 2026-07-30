@@ -1,0 +1,39 @@
+{
+    "title": "Duel of the Fusil and the Flare",
+    "media": [
+        {
+            "file": "Duel of the Fusil and the Flare.flac",
+            "type": "audio",
+            "feature": true,
+            "title": "Duel of the Fusil and the Flare",
+            "cover": "fusilers.png"
+        },
+        {
+            "file": "Duel of the Fusil and the Flare (No Muskets).flac",
+            "type": "audio",
+            "title": "Duel of the Fusil and the Flare (No Muskets)",
+            "cover": "fusilers.png"
+        }
+    ],
+    "theme": {
+        "titleStyle": "none",
+        "backgroundColor": "#474747",
+        "primaryColor": "#17150B",
+        "primaryAltColor": "#7C766B",
+        "secondaryColor": "#4A402C",
+        "highlightColor": "#4A402C",
+        "primaryTextColor": "#ffb554",
+        "primaryAltTextColor": "#838383",
+        "previewStripeColor1": "#3f3f3f",
+        "previewStripeColor2": "#2c2c2c",
+        "linkColor": "#4A402C",
+        "layoutStyle": "vertical",
+        "infoStyle": "overlaid",
+        "contentWidth": "600",
+        "coverSize": "480",
+        "nativePlayer": false,
+        "customCSS": ""
+    },
+    "description": "<p>An Orchestral piece mixed with rock and metal elements. Also, some muskets. Because why not.</p><p>Inspired by various <i>Two Steps From Hell </i>tracks.<br><br>Fusils are musket-like flintlock rifles typically given to artillery and officer units, as well as elite soldiers. They were lighter than the typical musket, and were as much a sign of leadership and class as they were weapons, in many countries.&nbsp;<br><br>Flare, in this case, refers to the Congreve Rocket. Long range artillery used in the revolutionary era, they are best well known for their red glow, similar to the glow of a flare. These are also the inspiration for the line \"And the rockets red glare\" In the Star-Spangled Banner.<br><br>This name was chosen to represent the two sections of this track - an orchestral section and a orchestra + guitar section.&nbsp;<br><br><br></p>",
+    "loopModeDefault": "none"
+}
